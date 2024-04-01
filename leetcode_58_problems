@@ -1,0 +1,22 @@
+/*
+Sözlərdən və boşluqlardan ibarət s sətrini nəzərə alaraq, sətirdəki son sözün uzunluğunu qaytarın.
+
+Söz maksimumdur
+alt sətir
+  yalnız boşluq olmayan simvollardan ibarətdir.
+*/
+
+class Solution {
+public:
+    int lengthOfLastWord(string s) {
+        int i=0,j=s.length()-1;
+        while(j>=0 && s[j]==' '){
+            j--;
+        }
+        while(j>=0 && s[j]!=' '){
+            i++;
+            j--;
+        }
+        return i;
+    }
+};

@@ -1,3 +1,13 @@
+/*
+Sizə azalmayan qaydada sıralanmış iki ədəd ədəd1 və ədəd2 tam ədəd massivi və müvafiq olaraq ədəd1 və ədəd2-dəki elementlərin sayını təmsil edən iki m və n tam ədədi verilir.
+
+Nömrələr1 və nömrə2-ni azalmayan qaydada çeşidlənmiş bir massivdə birləşdirin.
+
+Son çeşidlənmiş massiv funksiya tərəfindən qaytarılmamalı, bunun əvəzinə nums1 massivində saxlanılmalıdır. Bunu təmin etmək üçün nums1-in uzunluğu m + n-dir, burada ilk m element birləşdirilməli olan elementləri göstərir, sonuncu n element isə 0-a təyin edilir və nəzərə alınmamalıdır. nums2 n uzunluğuna malikdir.
+*/
+
+
+
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {

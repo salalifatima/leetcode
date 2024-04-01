@@ -1,0 +1,15 @@
+/*
+Nömrələr massivini və k tam ədədini nəzərə alaraq, massivin k-ci ən böyük elementini qaytarın.
+
+Qeyd edək ki, o, k-ci fərqli element deyil, çeşidlənmiş qaydada k-ci ən böyük elementdir.
+
+Çeşidləmədən həll edə bilərsinizmi?
+*/
+
+class Solution {
+public:
+    int findKthLargest(vector<int>& nums, int k) {
+      std::sort(nums.begin(), nums.end(), std::greater<int>());
+        return nums[k-1];  
+    }
+};

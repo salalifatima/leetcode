@@ -1,3 +1,11 @@
+/*
+Tam ədədlər massivini nəzərə alaraq, massivi artan qaydada sıralayın və onu qaytarın.
+
+Problemi O(nlog(n)) zaman mürəkkəbliyində heç bir daxili funksiyadan istifadə etmədən və mümkün olan ən kiçik məkan mürəkkəbliyi ilə həll etməlisiniz.
+*/
+
+
+
 class Solution {
 public:
 
